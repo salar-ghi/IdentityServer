@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bEhFGt273CZU74NZD1IvodIPtSSozjp+NPLk3/Kr0VHyW3pmbAwQa7J3Acd9JoRhrlVR1q9N2LVZO4TlrIJsfw==",
+  "dgSpecHash": "CX1xi8NxnGFXG/+yUIR8G5w/nbYb8H12TtePk4+rp3UDW2QnQvGUD/x0OvPspVb1UagvYkGdK3LK+1TlKZIghQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\s.ghahremani\\source\\repos\\IdentityServer\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
@@ -13,5 +13,12 @@
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.nitro.local/repository/nuget-hosted/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

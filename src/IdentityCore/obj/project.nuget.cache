@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oDyr70pu2p/l1SexGkWtDeFJZXgxr/olpIhUKMnktNsrDA35maKUzul3p1i4+NYWsVBF7D/JHnrKYynM9AH11g==",
+  "dgSpecHash": "1W3khX8lG9H9cwC4Xa6ng5+3AoD0NauamZZq6nx1doZ1BHFiAO23FdwwUHw+hd33tlQsNrt+yxEgkX0UWQfgxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\s.ghahremani\\source\\repos\\IdentityServer\\src\\IdentityCore\\IdentityCore.csproj",
   "expectedPackageFiles": [
@@ -95,5 +95,12 @@
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.nitro.local/repository/nuget-hosted/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

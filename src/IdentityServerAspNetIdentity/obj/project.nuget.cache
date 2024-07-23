@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xGmFDLEXTBW0u7IrMbkr3kkDSKuuv2vkoNHM7DSo0f0VeyMXQQP+xWd3qx0hexrxAv/rgWLWMXUXTliETV3a6g==",
+  "dgSpecHash": "ie0uUUkiN6DLPhNjPoOYrFu1r0UqKC04/GzplgyTScyz735mpVxino1RZXq4RnhYoqlUv2D33l005PeU8Udq7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\s.ghahremani\\source\\repos\\IdentityServer\\src\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
   "expectedPackageFiles": [
@@ -88,5 +88,12 @@
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\s.ghahremani\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.nitro.local/repository/nuget-hosted/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
